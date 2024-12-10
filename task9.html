@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 300px;
+        height: 300px;
+    }
+   
+</style>
+
+<body>
+    <button onclick="content()">Submit</button>
+    <h1 id="id">ANITHA</h1>
+    <script>
+        let a = document.getElementById("id");
+    
+        function content() {
+            a.innerHTML = "IDM";
+            a.style.color = "white";
+            a.style.backgroundColor = "green";
+            console.log(a.textContent);
+        }
+    </script>
+
+
+    <div id="div"></div>
+    <button onclick="colors()">click here</button>
+
+    <script>
+        let s=document.getElementById("div");
+        s.style.backgroundColor="aqua";
+
+        function colors(){
+            s.style.backgroundColor="orange";
+            s.style.backgroundColor="purple"
+            console.log("your changing a color purple");
+            
+        }
+    </script>
+
+       <div id="container">
+        <div id="value"></div>
+        <button onclick="increase()">+</button>
+        <button onclick="decrease()">-</button>
+       </div>
+
+       <script>
+        var countvalue=0
+        function increase(){
+            countvalue++;
+            document.getElementById("value").textContent=countvalue 
+            
+            console.log(countvalue);
+            
+        }
+        function decrease(){
+            countvalue--;
+            document.getElementById("value").textContent=countvalue
+
+            console.log(countvalue);
+            
+        }
+       </script>
+
+</body>
+</html>
+<style>
+    #container{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+    }
+    #value{
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        /* border: 2px solid black; */
+        width: 150px;
+        height: 50px;
+        margin: 75px 60px ;
+    }
+</style>

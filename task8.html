@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const a = prompt("Enter a value").toLowerCase();
+
+        // if (a === 'a' || a === 'e' || a === 'i' || a === 'o' || a === 'u') {
+        // console.log("VOWEL");
+        // }
+        // else if (a >= 'a' && a <= 'z') {
+        // console.log("CONSONANT");
+        // } 
+        // else {
+        // console.log("INVALID INPUT");
+        // }
+
+        // let b = prompt("enter a value");
+
+        // if (typeof b === 'string') {
+        // console.log("The value is a string.");
+        // } 
+        // else if (typeof b === Number) {
+        // console.log("The value is a number.");
+        // }
+        //  else {
+        // console.log("INVALID");
+        // }
+
+
+        let year = prompt("Enter a year:");
+
+        
+        year = Number(year);
+
+        if (isNaN(year)) {
+        console.log("Please enter a valid number.");
+        }
+         else {
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        console.log(year + " is a leap year.");
+        } 
+        else {
+        console.log(year + " is not a leap year.");
+        }
+        }
+
+        
+    </script>
+</body>
+</html>

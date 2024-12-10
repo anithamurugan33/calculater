@@ -1,0 +1,30 @@
+[{
+    "id":"1",
+    "name":"furniture1",
+    "price":"2000",
+    "image":"./Images/image1-removebg-preview.png"
+    
+},
+{
+    "id":"2",
+    "name":"furniture2",
+    "price":"2000",
+    "image":"./Images/image2-removebg-preview.png"
+    
+},
+{
+    "id":"3",
+    "name":"furniture3",
+    "price":"2000",
+    "image":"./Images/image3-removebg-preview.png"
+    
+},
+{
+    "id":"4",
+    "name":"furniture4",
+    "price":"2000",
+    "image":"./Images/image4-removebg-preview.png"
+    
+}
+
+]
